@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecipeCard should render correct layout when recipe is added once or more 1`] = `
+Array [
+  <ForwardRef(styled.div)
+    borderColor="primary_600"
+    borderRadius="md"
+    borderStyle="solid"
+    borderWidth="md"
+    boxShadow="lg"
+    m="-2px"
+  >
+    <ForwardRef(styled.div)
+      borderRadius="2px 2px 0px 0px"
+      height="0"
+      overflow="hidden"
+      paddingBottom="56.25%"
+    >
+      <img
+        alt="recipe 1"
+        src="image-src"
+        width="100%"
+      />
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      height="120px"
+      p="xs"
+    >
+      <ForwardRef(styled.div)
+        fontFamily="primary"
+        fontSize="md"
+        fontWeight="bold"
+      >
+        recipe 1
+      </ForwardRef(styled.div)>
+      <ForwardRef(styled.div)
+        fontFamily="secondary"
+        fontSize="sm"
+        fontWeight="regular"
+      >
+        This is a sample headline
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <SelectedRecipeFooter
+      maxRecipesSelected={false}
+      recipeId="123"
+      selected={1}
+      selectionLimit={1}
+      yields={2}
+    />
+  </ForwardRef(styled.div)>,
+]
+`;
+
+exports[`RecipeCard should render correct layout when recipe is not added at all 1`] = `
+Array [
+  <ForwardRef(styled.div)
+    borderColor={null}
+    borderRadius="md"
+    borderStyle={null}
+    borderWidth={null}
+    boxShadow="lg"
+    m={null}
+  >
+    <ForwardRef(styled.div)
+      borderRadius="2px 2px 0px 0px"
+      height="0"
+      overflow="hidden"
+      paddingBottom="56.25%"
+    >
+      <img
+        alt="recipe 1"
+        src="image-src"
+        width="100%"
+      />
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      height="120px"
+      p="xs"
+    >
+      <ForwardRef(styled.div)
+        fontFamily="primary"
+        fontSize="md"
+        fontWeight="bold"
+      >
+        recipe 1
+      </ForwardRef(styled.div)>
+      <ForwardRef(styled.div)
+        fontFamily="secondary"
+        fontSize="sm"
+        fontWeight="regular"
+      >
+        This is a sample headline
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <UnselectedRecipeFooter
+      maxRecipesSelected={true}
+      minRecipesSelected={true}
+      price={3433}
+      recipeId="123"
+      selected={0}
+    />
+  </ForwardRef(styled.div)>,
+]
+`;

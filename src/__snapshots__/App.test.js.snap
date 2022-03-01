@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render initial layout 1`] = `
+Array [
+  <ThemeProvider>
+    <Header />
+    <ForwardRef(styled.main)>
+      <Router>
+        <Recipes
+          path="/"
+        />
+      </Router>
+    </ForwardRef(styled.main)>
+    <Footer />
+  </ThemeProvider>,
+]
+`;

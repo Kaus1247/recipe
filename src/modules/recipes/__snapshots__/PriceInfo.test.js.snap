@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PriceInfo should render correct layout after click on icon 1`] = `
+Array [
+  <ForwardRef(styled.div)>
+    <ForwardRef(styled.button)
+      aria-label="openBoxSummary"
+      onClick={[Function]}
+    >
+      <IconInfoCircle
+        size="20"
+      />
+    </ForwardRef(styled.button)>
+    <ForwardRef(Styled(Box))>
+      <PriceSummary
+        shippingPrice={1000}
+        summary={
+          Map {
+            "recipeId1" => Object {
+              "id": "recipeId1",
+              "name": "recipe 1",
+              "selected": 2,
+              "totalRecipePrice": 1798,
+            },
+          }
+        }
+        totalPrice="$27.98"
+      />
+    </ForwardRef(Styled(Box))>
+  </ForwardRef(styled.div)>,
+]
+`;
+
+exports[`PriceInfo should render correct layout before click on icon 1`] = `
+Array [
+  <ForwardRef(styled.div)>
+    <ForwardRef(styled.button)
+      aria-label="openBoxSummary"
+      onClick={[Function]}
+    >
+      <IconInfoCircle
+        size="20"
+      />
+    </ForwardRef(styled.button)>
+  </ForwardRef(styled.div)>,
+]
+`;
